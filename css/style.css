@@ -4,3 +4,24 @@ h1{
   background-position: 50% 50%;
   min-height: 300px
 }
+
+footer ul li {
+  list-style: none;
+  font-size: 12px
+}
+
+.customer-service button+button{
+  margin-left: 14px
+}
+
+#social-buttons a+a{
+  margin-left: 14px
+}
+
+#social-buttons a{
+  padding: .2rem 0.8rem;
+}
+
+.secondary-nav{
+  max-width: 500px
+}
