@@ -1,8 +1,36 @@
-h1{
+.hero{
   background: url('../images/lone-wolf.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  min-height: 300px
+  min-height: 300px;
+  position: relative;
+}
+
+h1{
+  background-color: rgba(255,255,255,0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  padding: 10px;
+  margin: 0;
+}
+
+.gb-buttons button{
+  background-color: #05668D;
+  border: none;
+}
+
+.buy-button{
+  background-color: #02C39A;
+  border: none;
+  color: white;
+
+}
+
+.container-buy-button {
+  margin:0 auto;
+  width:50%;
 }
 
 footer ul li {
