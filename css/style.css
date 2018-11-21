@@ -16,6 +16,17 @@ h1{
   margin: 0;
 }
 
+h2{
+  text-align: center;
+}
+
+.description{
+  background-color: #028090;
+  color: white;
+  border: 1px solid #028090;
+  border-radius: 3%;
+}
+
 /*.gb-buttons button{
   background-color: #05668D;
   border: none;
@@ -54,7 +65,7 @@ h3{
 }
 
 #family {
-      min-height: 260px;
+      min-height: 480px;
 }
 
 footer ul li {
