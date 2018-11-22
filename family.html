@@ -55,25 +55,39 @@
     </section>
 
     <section class="mt-5 gb-buttons-container">
-
       <div id="myMinDiv">
+
         <h2>How Many SIM cards?</h2>
-        <button id="sim_1" data-sim="1" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">1</button>
-        <button id="sim_2" data-sim="2" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">2</button>
-        <button id="sim_3" data-sim="3" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">3</button>
-        <button id="sim_4" data-sim="4" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">4</button>
-        <button id="sim_5" data-sim="5" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">5</button>
+
+        <div class="mt-5 gb-buttons">
+        <button id="sim_1" data-sim="1" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn btn-warning btn-lg btn-block">1</button>
+
+        <button id="sim_2" data-sim="2" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn btn-warning btn-lg btn-block">2</button>
+
+        <button id="sim_3" data-sim="3" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn btn-warning btn-lg btn-block">3</button>
+
+        <button id="sim_4" data-sim="4" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn btn-warning btn-lg btn-block">4</button>
+
+        <button id="sim_5" data-sim="5" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn btn-warning btn-lg btn-block">5</button>
+
+      </div>
       </div>
 
       <div id="myGbDiv">
-        <h2>How Many Gigabytes?</h2>
-        <button id="gb_1" data-gb="1" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">1GB</button>
-        <button id="gb_6" data-gb="10" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">10GB</button>
-        <button id="gb_10" data-gb="20" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">20GB</button>
-        <button id="gb_20" data-gb="40" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">40GB</button>
+        <h2 class="mt-5">How Many Gigabytes?</h2>
+        <div class="mt-5 gb-buttons">
+        <button id="gb_1" data-gb="1" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn btn-warning btn-lg btn-block">1GB</button>
+
+        <button id="gb_6" data-gb="10" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn btn-warning btn-lg btn-block">10GB</button>
+
+        <button id="gb_10" data-gb="20" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn btn-warning btn-lg btn-block">20GB</button>
+
+        <button id="gb_20" data-gb="40" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn btn-warning btn-lg btn-block">40GB</button>
+      </div>
       </div>
 
-     <ul class="nav nav-tabs" id="myTab" role="tablist">
+<!-- Accordion Monthly/ Annually -->
+     <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
         <li class="nav-item">
           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Monthly</a>
         </li>
@@ -81,18 +95,24 @@
           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Annually</a>
         </li>
       </ul>
-      <div class="tab-content" id="myTabContent">
+      <div class="tab-content mt-3" id="myTabContent">
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
           <h3>Monthly</h3>
-          <p>£ <span id="price_month">0</span></p>
-          <p>An awesome description</p>
-          <button>Buy Now</button>
+          <p class="price">£ <span id="price_month">0</span></p>
+            <p class="summary">Our <strong>Family packs</strong> offer all the options that you need to ensure that your family stays connected.</p>
+            <hr>
+            <div class="container-buy-button">
+              <button class="btn btn-lg buy-button mt-3 btn-block">Buy Now</button>
+            </div>
         </div>
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
           <h3>Annually</h3>
-          <p>£ <span id="price_annual">0</span></p>
-          <p>An awesome description</p>
-          <button id="buy">Buy Now</button>
+          <p class="price">£ <span id="price_annual">0</span></p>
+          <p class="summary">Our <strong>Family packs</strong> offer all the options that you need to ensure that your family stays connected.</p>
+          <hr>
+          <div class="container-buy-button">
+            <button class="btn btn-lg buy-button mt-3 btn-block">Buy Now</button>
+          </div>
         </div>
       </div>
 

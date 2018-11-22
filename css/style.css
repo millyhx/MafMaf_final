@@ -1,38 +1,38 @@
-section{
+section {
   max-width: 500px;
   margin: 0 auto
 }
 
-img{
+img {
   max-width: 100%
 }
+
 /*
 ****************************************
 TYPESETTING
 ****************************************
 */
-
-h1{
-  background-color: rgba(255,255,255,0.7);
+h1 {
+  background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   bottom: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   padding: 10px;
   margin: 0;
-  font-family:'Coda', cursive;
+  font-family: 'Coda', cursive;
 }
 
-h2{
+h2 {
   text-align: center;
-  font-family:'Coda', cursive;
+  font-family: 'Coda', cursive;
 }
 
-h3{
+h3 {
   background-color: black;
-  color:white;
+  color: white;
   margin-bottom: 0;
-  font-family:'Coda', cursive;
+  font-family: 'Coda', cursive;
 }
 
 p {
@@ -44,9 +44,8 @@ p {
 BACKGROUND COLORS
 ****************************************
 */
-
 header nav, footer {
-    background-color: #ab2d2d!important;
+  background-color: #ab2d2d !important;
 }
 
 /*
@@ -54,10 +53,9 @@ header nav, footer {
 NAV
 ****************************************
 */
-
 #avo {
-  max-width:50px;
-  margin-right:1%;
+  max-width: 50px;
+  margin-right: 1%;
 }
 
 /*
@@ -65,7 +63,6 @@ NAV
 HEADER
 ****************************************
 */
-
 #lone-wolf .hero {
   background: url('../images/lone-wolf.jpg');
   background-size: cover;
@@ -103,8 +100,7 @@ HEADER
 IMAGES
 ****************************************
 */
-
-img{
+img {
   max-width: 400px
 }
 
@@ -113,8 +109,7 @@ img{
 DESCRIPTION
 ****************************************
 */
-
-.description{
+.description {
   color: white;
   max-width: 100%;
   background-color: #235789;
@@ -124,7 +119,7 @@ DESCRIPTION
 }
 
 .description p {
-  font-size:22px;
+  font-size: 22px;
 }
 
 /*
@@ -133,71 +128,78 @@ BUTTONS
 ****************************************
 */
 .btn-warning {
-  color:white!important;
-font-size:20px;
-font-weight:600;
-color: #212529;
-background-color: #e67303;
-border-color: #e67303;
+  color: white !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: #212529;
+  background-color: #e67303;
+  border-color: #e67303;
 }
 
 .btn-warning:hover {
-  background-color:#e05000;
+  background-color: #e05000;
 }
 
 /*
 ****************************************
-ACCORDION TABS
+COMPARISON SECTION TABS
 ****************************************
 */
-
 #home-tab, #profile-tab {
-  color:black;
-  font-size:30px;
+  color: black;
+  font-size: 30px;
 }
 
 #home-tab .active {
-  background-color:grey;
+  background-color: grey;
 }
 
 .nav-tabs .nav-link.active {
-    color: #495057;
-    background-color: #d3d3d3;
-    border-color: #dee2e6 #dee2e6 #fff;
+  color: #495057;
+  background-color: #d3d3d3;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .container-buy-button {
-  margin:0 auto;
-  width:50%;
+  margin: 0 auto;
+  width: 50%;
 }
 
-.buy-button{
+.buy-button {
   background-color: #00A550;
   border: none;
   color: white;
   margin-bottom: 5%;
-  margin-top: 0!important;
+  margin-top: 0 !important;
 }
 
-#myTabContent{
+#myTabContent {
   text-align: center;
-  margin-top: 0!important;
+  margin-top: 0 !important;
   border: 1px solid lightgrey;
 }
 
-#myTabContent h3{
+#myTabContent h3 {
   padding: 20px
 }
 
-#myTabContent p+p{
+#myTabContent p+p {
   text-align: left;
   padding: 10px
 }
 
-#myTabContent .price{
+#myTabContent .price {
   font-size: 30px;
   background-color: lightgrey;
   padding: 30px
+}
+
+#accordion {
+  display: block;
+}
+
+#comparison {
+  display: none;
 }
 
 /*
@@ -205,19 +207,17 @@ ACCORDION TABS
 CAROUSEL
 ****************************************
 */
-
-.carousel{
+.carousel {
   margin: 0 auto;
-  background-color: #235789!important
-
+  background-color: #235789 !important
 }
 
-.carousel-indicators{
-      bottom: -8px;
+.carousel-indicators {
+  bottom: -8px;
 }
 
 .card-body {
-  color:white!important;
+  color: white !important;
 }
 
 /*
@@ -225,22 +225,22 @@ CAROUSEL
 FOOTER
 ****************************************
 */
-
 #help-and-support-btn {
-color: #FFF;
-  background-color:#007bff;
-  padding:7px;
+  color: #FFF;
+  background-color: #007bff;
+  padding: 7px;
   border: #007bff;
-  border-width:1px;;
+  border-width: 1px;
+  ;
   border-radius: 7px;
 }
 
 #chat-button {
-  color:#FFF;
-  background-color:#000;
-  padding:7px;
+  color: #FFF;
+  background-color: #000;
+  padding: 7px;
   border: #000;
-  border-width:1px;
+  border-width: 1px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -250,51 +250,49 @@ footer ul li {
   font-size: 12px
 }
 
-.customer-service button+button{
+.customer-service button+button {
   margin-left: 14px
 }
 
-#social-buttons a+a{
+#social-buttons a+a {
   margin-left: 14px
 }
 
-#social-buttons a{
+#social-buttons a {
   padding: .2rem 0.8rem;
 }
 
-.btn-twitter{
+.btn-twitter {
   background-color: #38A1F3;
   border: #FFF 1px solid;
 }
 
-.btn-facebook{
+.btn-facebook {
   background-color: #4267b2;
   border: #FFF 1px solid;
 }
 
-.btn-youtube{
+.btn-youtube {
   background-color: #ED3833;
   border: #FFF 1px solid;
 }
 
-.secondary-nav{
+.secondary-nav {
   max-width: 500px
 }
 
 .secondary-nav a {
-    color: #f1f1f1;
-    text-decoration: none;
+  color: #f1f1f1;
+  text-decoration: none;
 }
 
 .secondary-nav a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 #social-buttons {
-  background-color:white!important;
-  padding:1%;
-
-
+  background-color: white !important;
+  padding: 1%;
 }
 
 /*
@@ -302,78 +300,116 @@ footer ul li {
 MEDIA QUERIES
 ****************************************
 */
-
 @media only screen and (min-width: 600px) {
-  .gb-buttons-container{
+  h1 {
+    font-size: 300%;
+  }
+
+  .gb-buttons-container {
     max-width: 800px
   }
-    .gb-buttons{
-      display: flex;
-    }
 
-    .gb-buttons button:first-child{
-      margin-top: .5rem;
-    }
+  .gb-buttons {
+    display: flex;
+  }
 
-    .gb-buttons button+button{
-      margin-left:5px;
-    }
+  .gb-buttons button:first-child {
+    margin-top: .5rem;
+  }
 
-    .btn-warning {
-      color:white!important;
-    font-size:20px;
-    font-weight:600;
+  .gb-buttons button+button {
+    margin-left: 5px;
+  }
+
+  .btn-warning {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
     color: #212529;
     background-color: #e67303;
     border-color: #e67303;
-    height:80px;
-    }
+    height: 80px;
+  }
 
-    h1 {
-      font-size:300%;
-    }
-
-
-
+  .summary {
+    font-size: 22px;
+    margin: 0 20px;
+  }
 }
+
 @media only screen and (min-width: 768px) {
+  .list-group-flush {
+    margin-top: 5%;
+  }
 
-    nav {
-      min-height:100px;
-      font-size:150%;
+  .card-header {
+    margin-top: 5%;
+  }
 
-    }
+  .container-buy-button {
+    margin-top: 20%;
+  }
 
-    nav .navbar-brand {
-      font-size:150%;
-      margin-right:3%;
-    }
+  #comparison {
+    padding: 0 9%;
+  }
 
-    h1 {
-      font-size:400%;
-    }
+  .container-vertical-line {
+    text-align: center;
+  }
 
+  #accordion {
+    display: none;
+  }
 
-    .btn-warning {
-      color:white!important;
-    font-size:20px;
-    font-weight:600;
+  #comparison {
+    display: block;
+  }
+
+  .vertical-line {
+    border-left: 6px solid black;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .carousel {
+    margin-top: 90px;
+  }
+
+  nav {
+    min-height: 100px;
+    font-size: 150%;
+  }
+
+  nav .navbar-brand {
+    font-size: 150%;
+    margin-right: 3%;
+  }
+
+  h1 {
+    font-size: 400%;
+  }
+
+  .btn-warning {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
     color: #212529;
     background-color: #e67303;
     border-color: #e67303;
-    height:80px;
-    }
+    height: 80px;
+  }
 
-@media only screen and (min-width: 1024px) {
-
+  @media only screen and (min-width: 1024px) {
     .btn-warning {
-      color:white!important;
-    font-size:20px;
-    font-weight:600;
-    color: #212529;
-    background-color: #e67303;
-    border-color: #e67303;
-    height:80px;
+      color: white !important;
+      font-size: 20px;
+      font-weight: 600;
+      color: #212529;
+      background-color: #e67303;
+      border-color: #e67303;
+      height: 80px;
     }
 
     #lone-wolf .hero {
@@ -409,8 +445,6 @@ MEDIA QUERIES
     }
 
     h1 {
-      font-size:500%;
+      font-size: 500%;
     }
-
-
-}
+  }
