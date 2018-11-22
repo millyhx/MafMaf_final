@@ -51,6 +51,19 @@ header nav, footer {
 
 /*
 ****************************************
+NAV
+****************************************
+*/
+
+#avo {
+  max-width:50px;
+  margin-right:1%;
+}
+
+
+
+/*
+****************************************
 HEADER
 ****************************************
 */
@@ -61,8 +74,6 @@ HEADER
   background-position: 50% 50%;
   min-height: 300px;
   position: relative;
-  background-repeat:no-repeat;
-  border-radius:0;
 }
 
 #chatterbox .hero {
@@ -369,6 +380,30 @@ MEDIA QUERIES
 
     #lone-wolf .hero {
       background: url('../images/lone-wolf.jpg');
+      background-size: cover;
+      background-position: 50% 50%;
+      min-height: 800px;
+      position: relative;
+    }
+
+    #chatterbox .hero {
+      background: url('../images/bigpic.jpg');
+      background-size: cover;
+      background-position: 50% 50%;
+      min-height: 800px;
+      position: relative;
+    }
+
+    #family .hero {
+      background: url('../images/family.png');
+      background-size: cover;
+      background-position: 50% 50%;
+      min-height: 800px;
+      position: relative;
+    }
+
+    #contact .hero {
+      background: url('../images/contact.png');
       background-size: cover;
       background-position: 50% 50%;
       min-height: 800px;
