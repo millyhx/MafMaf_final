@@ -39,7 +39,7 @@ BACKGROUND COLORS
 */
 
 header nav, footer {
-    background-color: #c13543!important;
+    background-color: #ab2d2d!important;
 }
 
 /*
@@ -75,10 +75,28 @@ DESCRIPTION
 .description{
   color: white;
   max-width: 100%;
-  background-color: #028090;
+  background-color: #235789;
   padding: 50px;
-  border: 1px solid #028090;
+  border: 1px solid #235789;
   border-radius: 10px;
+}
+
+.description p {
+  font-size:22px;
+}
+
+/*
+****************************************
+BUTTONS
+****************************************
+*/
+.btn-warning {
+  color:white!important;
+font-size:20px;
+font-weight:600;
+color: #212529;
+background-color: #e67303;
+border-color: #e67303;
 }
 
 /*
@@ -89,6 +107,7 @@ ACCORDION TABS
 
 #home-tab, #profile-tab {
   color:black;
+  font-size:30px;
 }
 
 #home-tab .active {
@@ -143,10 +162,16 @@ CAROUSEL
 
 .carousel{
   margin: 0 auto;
+  background-color: #235789!important
+
 }
 
 .carousel-indicators{
       bottom: -8px;
+}
+
+.card-body {
+  color:white!important;
 }
 
 /*
