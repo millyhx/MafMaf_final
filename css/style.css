@@ -61,6 +61,8 @@ HEADER
   background-position: 50% 50%;
   min-height: 300px;
   position: relative;
+  background-repeat:no-repeat;
+  border-radius:0;
 }
 
 #chatterbox .hero {
@@ -73,6 +75,14 @@ HEADER
 
 #family .hero {
   background: url('../images/family.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 300px;
+  position: relative;
+}
+
+#contact .hero {
+  background: url('../images/contact.png');
   background-size: cover;
   background-position: 50% 50%;
   min-height: 300px;
@@ -310,8 +320,40 @@ MEDIA QUERIES
     height:80px;
     }
 
-}
+    h1 {
+      font-size:300%;
+    }
 
+
+
+}
+@media only screen and (min-width: 768px) {
+
+    nav {
+      min-height:100px;
+      font-size:150%;
+
+    }
+
+    nav .navbar-brand {
+      font-size:150%;
+      margin-right:3%;
+    }
+
+    h1 {
+      font-size:400%;
+    }
+
+
+    .btn-warning {
+      color:white!important;
+    font-size:20px;
+    font-weight:600;
+    color: #212529;
+    background-color: #e67303;
+    border-color: #e67303;
+    height:80px;
+    }
 
 @media only screen and (min-width: 1024px) {
 
@@ -325,18 +367,17 @@ MEDIA QUERIES
     height:80px;
     }
 
-}
-
-@media only screen and (min-width: 768px) {
-
-    .btn-warning {
-      color:white!important;
-    font-size:20px;
-    font-weight:600;
-    color: #212529;
-    background-color: #e67303;
-    border-color: #e67303;
-    height:80px;
+    #lone-wolf .hero {
+      background: url('../images/lone-wolf.jpg');
+      background-size: cover;
+      background-position: 50% 50%;
+      min-height: 800px;
+      position: relative;
     }
+
+    h1 {
+      font-size:500%;
+    }
+
 
 }
