@@ -179,6 +179,8 @@ CAROUSEL
 FOOTER
 ****************************************
 */
+
+
 #help-and-support-btn {
 color: #FFF;
   background-color:#007bff;
@@ -243,6 +245,13 @@ footer ul li {
   text-decoration:underline;
 }
 
+#social-buttons {
+  background-color:white!important;
+  padding:1%;
+
+
+}
+
 /*
 ****************************************
 MEDIA QUERIES
@@ -263,6 +272,45 @@ MEDIA QUERIES
 
     .gb-buttons button+button{
       margin-left:5px;
+    }
+
+    .btn-warning {
+      color:white!important;
+    font-size:20px;
+    font-weight:600;
+    color: #212529;
+    background-color: #e67303;
+    border-color: #e67303;
+    height:80px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .btn-warning {
+      color:white!important;
+    font-size:20px;
+    font-weight:600;
+    color: #212529;
+    background-color: #e67303;
+    border-color: #e67303;
+    height:80px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .btn-warning {
+      color:white!important;
+    font-size:20px;
+    font-weight:600;
+    color: #212529;
+    background-color: #e67303;
+    border-color: #e67303;
+    height:80px;
     }
 
 }
