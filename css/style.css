@@ -25,12 +25,18 @@ h1{
 
 h2{
   text-align: center;
+  font-family:'Coda', cursive;
 }
 
 h3{
   background-color: black;
   color:white;
   margin-bottom: 0;
+  font-family:'Coda', cursive;
+}
+
+p {
+  font-family: 'Hind', sans-serif;
 }
 
 /*
@@ -49,8 +55,24 @@ HEADER
 ****************************************
 */
 
-.hero{
+#lone-wolf .hero {
   background: url('../images/lone-wolf.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 300px;
+  position: relative;
+}
+
+#chatterbox .hero {
+  background: url('../images/chatterbox.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 300px;
+  position: relative;
+}
+
+#family .hero {
+  background: url('../images/family.png');
   background-size: cover;
   background-position: 50% 50%;
   min-height: 300px;
