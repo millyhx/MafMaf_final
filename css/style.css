@@ -106,6 +106,15 @@ img {
 
 /*
 ****************************************
+HOME PAGE
+****************************************
+*/
+.card-text {
+  color: #000
+}
+
+/*
+****************************************
 DESCRIPTION
 ****************************************
 */
@@ -350,20 +359,17 @@ MEDIA QUERIES
     margin-top: 20%;
   }
 
-  #comparison {
-    padding: 0 9%;
-  }
-
   .container-vertical-line {
     text-align: center;
   }
 
-  #accordion {
-    display: none;
+  #comparison {
+    padding: 0 9%;
+    display: block;
   }
 
-  #comparison {
-    display: block;
+  #accordion {
+    display: none;
   }
 
   .vertical-line {
@@ -402,6 +408,14 @@ MEDIA QUERIES
   }
 
   @media only screen and (min-width: 1024px) {
+    #comparison {
+       padding:0 9%;
+     }
+
+     #accordion {
+       display:none;
+     }
+
     .btn-warning {
       color: white !important;
       font-size: 20px;
