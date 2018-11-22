@@ -83,7 +83,8 @@
           <button id="unlimited" data-min="unlimited" data-cost-min="12.00" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_min btn btn-warning btn-lg btn-block">Unlimited</button>
         </div>
 
-        <!-- Accordion Monthly/ Annually -->
+        <section id="accordion">
+          <!-- Comparison section Monthly/ Annually -->
         <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Monthly</a>
@@ -97,7 +98,7 @@
         <div class="tab-content mt-3" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <h3>Monthly</h3>
-            <p class="price">£ <span id="price_month">0</span></p>
+            <p class="price">£ <span class="price_month">0</span></p>
             <p class="summary">Our <strong>Chatterbox packs</strong> offer all the options that you need to never run out of data.</p>
             <hr>
             <div class="container-buy-button">
@@ -106,7 +107,7 @@
           </div>
           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
             <h3>Annually</h3>
-            <p class="price">£ <span id="price_annual">0</span></p>
+            <p class="price">£ <span class="price_annual">0</span></p>
             <p class="summary">Our <strong>Chatterbox packs</strong> offer all the options that you need to never run out of data.</p>
             <hr>
             <div class="container-buy-button">
@@ -114,7 +115,8 @@
             </div>
           </div>
         </div>
-
+<!-- / Table inside the Comparison section -->
+        </section>
         <!--div class="mt-5 gb-buttons">
         <button type="button" class="btn btn-warning btn-lg btn-block">3GB</button>
         <button type="button" class="btn btn-warning btn-lg btn-block">6GB</button>
@@ -163,6 +165,47 @@
         </div>
       </div-->
     </section>
+
+
+    <!-- Comparison section ONLY FOR LARGER SCREENS-->
+
+    <section id="comparison" class="container">
+
+      <div class="row">
+
+        <div class="card mt-4 price-table col-md" style="width: 18rem;">
+          <div class="card-header">
+            Monthly
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item price">£<span class="price_month"> 0</span></li>
+            <li class="list-group-item">Our <strong>Lone Wolf packs</strong> offer all the options that you need to never run out of data.</li>
+            <div class="container-buy-button">
+              <button class="btn btn-lg buy-button mt-3 btn-block">Buy Now</button>
+            </div>
+          </ul>
+        </div>
+
+        <div class="container-vertical-line col-md-2">
+          <div class="vertical-line"></div>
+        </div>
+
+        <div class="card  mt-4 price-table col-md-5" style="width: 18rem;">
+          <div class="card-header">
+            Annually
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item price">£<span class="price_month"> 0</span></li>
+            <li class="list-group-item">Our <strong>Lone Wolf packs</strong> offer all the options that you need to never run out of data.</li>
+            <div class="container-buy-button">
+              <button class="btn btn-lg buy-button mt-3 btn-block">Buy Now</button>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--LARGER COMPARISON-->
+
 
     <!-- Carousel -->
     <section class="mt-5 bg-info carousel">

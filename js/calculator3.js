@@ -72,6 +72,6 @@ var sim;
 
   //Function 2
   function pay_frequency() {
-    $("#price_month").text(price);
-    $ ("#price_annual").text(price * 12);
+    $(".price_month").text(price);
+    $ (".price_annual").text(price * 12);
   }

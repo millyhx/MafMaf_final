@@ -25,8 +25,8 @@ $(".btn_min").click(function(event){
 
 function pay_frequency() {
   total = gb_price + min_price;
-  $("#price_month").text(total);
-  $ ("#price_annual").text(total * 12);
+  $(".price_month").text(total);
+  $ (".price_annual").text(total * 12);
 }
 
 if ($(".btn_gb").hasClass('active')){
