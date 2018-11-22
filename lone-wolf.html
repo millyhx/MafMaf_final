@@ -55,10 +55,13 @@
     <section class="mt-5 gb-buttons-container">
       <h2 class="mt-5">How Many Gigabytes</h2>
       <div class="mt-5 gb-buttons">
-        <button type="button" class="btn btn-warning btn-lg btn-block">3GB</button>
-        <button type="button" class="btn btn-warning btn-lg btn-block">6GB</button>
-        <button type="button" class="btn btn-warning btn-lg btn-block">15GB</button>
-        <button type="button" class="btn btn-warning btn-lg btn-block">30GB</button>
+        <button data-gb="3GB" data-cost="14.00" type="button" class="btn btn-warning btn-lg btn-block btn_gb">3GB</button>
+
+        <button data-gb="6GB" data-cost="18.00" type="button" class="btn btn-warning btn-lg btn-block btn_gb">6GB</button>
+
+        <button data-gb="16GB" data-cost="20.00" type="button" class="btn btn-warning btn-lg btn-block btn_gb">15GB</button>
+
+        <button data-gb="30GB" data-cost="30.00" type="button" class="btn btn-warning btn-lg btn-block btn_gb">30GB</button>
       </div>
 
       <!-- Accordion -->
@@ -75,7 +78,7 @@
       <div class="tab-content mt-3" id="myTabContent">
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
           <h3>Monthly</h3>
-          <p class="price">£ 0</p>
+          <p class="price">£<span id="price_month"> 0</span></p>
           <p>Our <strong>Lone Wolf packs</strong> offer all the options that you need to never run out of data.</p>
           <hr>
           <div class="container-buy-button">
@@ -84,7 +87,7 @@
         </div>
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
           <h3>Annually</h3>
-          <p class="price">£ 0</p>
+          <p class="price">£ <span id="price_annual">0</span></p>
           <p>Our <strong>Lone Wolf packs</strong> offer all the options that you need to never run out of data.</p>
           <hr>
           <div class="container-buy-button">

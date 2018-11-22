@@ -122,6 +122,10 @@ background-color: #e67303;
 border-color: #e67303;
 }
 
+.btn-warning:hover {
+  background-color:#e05000;
+}
+
 /*
 ****************************************
 ACCORDION TABS
