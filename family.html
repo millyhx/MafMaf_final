@@ -2,6 +2,7 @@
 <html lang="en-GB">
 
 <head>
+  <meta charset="UTF-8">
   <title>Family</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css?family=Coda|Hind" rel="stylesheet">
@@ -12,7 +13,8 @@
 <body id="family">
   <header id="top">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">MafMaf</a>
+      <img id="avo" src="images/avocado.PNG" />
+      <a class="navbar-brand" href="index.html">MafMaf</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,15 +55,54 @@
     </section>
 
     <section class="mt-5 gb-buttons-container">
-      <!--gigabyte buttons-->
-      <h2 class="mt-5">How Many Gigabytes</h2>
-      <div class="mt-5 gb-buttons">
+
+      <div id="myMinDiv">
+        <h2>How Many SIM cards?</h2>
+        <button id="sim_1" data-sim="1" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">1</button>
+        <button id="sim_2" data-sim="2" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">2</button>
+        <button id="sim_3" data-sim="3" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">3</button>
+        <button id="sim_4" data-sim="4" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">4</button>
+        <button id="sim_5" data-sim="5" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_sim btn active">5</button>
+      </div>
+
+      <div id="myGbDiv">
+        <h2>How Many Gigabytes?</h2>
+        <button id="gb_1" data-gb="1" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">1GB</button>
+        <button id="gb_6" data-gb="10" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">10GB</button>
+        <button id="gb_10" data-gb="20" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">20GB</button>
+        <button id="gb_20" data-gb="40" type="button" data-toggle="button" aria-pressed"false" autocomplete="off" class="btn_gb btn active">40GB</button>
+      </div>
+
+     <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Monthly</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Annually</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <h3>Monthly</h3>
+          <p>£ <span id="price_month">0</span></p>
+          <p>An awesome description</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <h3>Annually</h3>
+          <p>£ <span id="price_annual">0</span></p>
+          <p>An awesome description</p>
+          <button id="buy">Buy Now</button>
+        </div>
+      </div>
+
+      <!--div class="mt-5 gb-buttons">
         <button type="button" class="btn btn-warning btn-lg btn-block">3GB</button>
         <button type="button" class="btn btn-warning btn-lg btn-block">6GB</button>
         <button type="button" class="btn btn-warning btn-lg btn-block">15GB</button>
         <button type="button" class="btn btn-warning btn-lg btn-block">30GB</button>
       </div>
-      <!--sim buttons-->
+
       <h2 class="mt-5">How Many Sim Cards</h2>
       <div class="mt-5 gb-buttons">
         <button type="button" class="btn btn-warning btn-lg btn-block">1</button>
@@ -70,7 +111,7 @@
         <button type="button" class="btn btn-warning btn-lg btn-block">4</button>
       </div>
 
-      <!-- Accordion -->
+
       <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
         <li class="nav-item">
           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Monthly</a>
@@ -78,9 +119,9 @@
         <li class="nav-item">
           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Annually</a>
         </li>
-      </ul> <!-- / Accordion -->
+      </ul>
 
-      <!-- Table inside the Accordion -->
+
       <div class="tab-content mt-3" id="myTabContent">
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
           <h3>Monthly</h3>
@@ -100,7 +141,7 @@
               <button class="btn btn-lg buy-button mt-3 btn-block">Buy Now</button>
           </div>
         </div>
-      </div> <!-- / Table inside the Accordion -->
+      </div-->
     </section>
 
 <!-- Carousel -->
@@ -180,6 +221,6 @@
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+<script src="js/calculator3.js"></script>
 
 </html>
