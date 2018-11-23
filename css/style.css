@@ -103,6 +103,15 @@ HEADER
   position: relative;
 }
 
+#index .hero {
+  background: url('../images/contact.png');
+  background-size: cover;
+  background-position: 50% 10%;
+  min-height: 300px;
+  position: relative;
+  margin-bottom:5%;
+}
+
 /*
 ****************************************
 IMAGES
@@ -411,6 +420,7 @@ MEDIA QUERIES
     border-color: #e67303;
     height: 80px;
   }
+}
 
   @media only screen and (min-width: 1024px) {
     #comparison {
@@ -434,7 +444,7 @@ MEDIA QUERIES
     #lone-wolf .hero {
       background: url('../images/index.jpg');
       background-size: cover;
-      background-position: 50% 50%;
+      background-position: 50% 20%;
       min-height: 800px;
       position: relative;
     }
@@ -442,7 +452,7 @@ MEDIA QUERIES
     #lone-wolf .hero {
       background: url('../images/lone-wolf.jpg');
       background-size: cover;
-      background-position: 50% 50%;
+      background-position: 50% 20%;
       min-height: 800px;
       position: relative;
     }
@@ -450,7 +460,7 @@ MEDIA QUERIES
     #chatterbox .hero {
       background: url('../images/bigpic.jpg');
       background-size: cover;
-      background-position: 50% 50%;
+      background-position: 50% 20%;
       min-height: 800px;
       position: relative;
     }
@@ -458,7 +468,7 @@ MEDIA QUERIES
     #family .hero {
       background: url('../images/family.png');
       background-size: cover;
-      background-position: 50% 50%;
+      background-position: 50% 20%;
       min-height: 800px;
       position: relative;
     }
@@ -466,7 +476,7 @@ MEDIA QUERIES
     #contact .hero {
       background: url('../images/contact.png');
       background-size: cover;
-      background-position: 50% 50%;
+      background-position: 50% 20%;
       min-height: 800px;
       position: relative;
     }
