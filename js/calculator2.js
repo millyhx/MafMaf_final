@@ -32,3 +32,12 @@ function pay_frequency() {
 if ($(".btn_gb").hasClass('active')){
     $(".btn_gb").this.getAttribute("data-gb");
 }
+
+//Shopping Cart
+$(".addToBag").click(function(event){
+  var click = 0;
+  click++;
+  $ ("#itemsInBag").text(click);
+  console.log(click);
+
+})

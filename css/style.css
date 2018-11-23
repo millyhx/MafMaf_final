@@ -58,6 +58,15 @@ NAV
   margin-right: 1%;
 }
 
+#bag{
+  max-width: 40%;
+  margin-bottom: 8%;
+}
+
+#shopping-cart{
+  margin-left: 85%;
+}
+
 /*
 ****************************************
 HEADER

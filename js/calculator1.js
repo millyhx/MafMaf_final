@@ -8,3 +8,14 @@ $(".btn_gb").click(function(event){
   $(".price_month").text(data_cost);
   $ (".price_annual").text(data_cost * 12);
 });
+
+
+//Shopping Cart
+
+$(".addToBag").click(function(event){
+  var click = 0;
+  click++;
+  $ ("#itemsInBag").text(click);
+  console.log(click);
+
+})

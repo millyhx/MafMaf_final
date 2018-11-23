@@ -7,8 +7,8 @@ var price_sim4 = ["35.60", "56.00", "90.00", "124.00"];
 var price_sim5 = ["42.80", "68.00", "110.00", "152.00"];
 
 var total = 0;
-var number_sim = 0; //1
-var number_gb = 0; //1GB
+var number_sim = 0;
+var number_gb = 0;
 var price;
 var gb;
 var sim;
@@ -75,3 +75,12 @@ var sim;
     $(".price_month").text(price);
     $ (".price_annual").text(price * 12);
   }
+
+  //Shopping Cart
+  $(".addToBag").click(function(event){
+    var click = 0;
+    click++;
+    $ ("#itemsInBag").text(click);
+    console.log(click);
+
+  })
